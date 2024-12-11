@@ -64,18 +64,13 @@ This project implements a high-performance order management and market data syst
    git clone https://github.com/MokshMangal-dev108/order-management-system.git
    cd order-management-system
    ```
-2. Create a build directory and navigate to it:
+2. Navigate to folder and compile main.cpp:
    ```bash
-   mkdir build && cd build
-   ```
-3. Run CMake:
+   g++ -std=c++11 program.cpp -o program -lssl -lcrypto -lpthread
+3. Run file:
    ```bash
-   cmake ..
-   ```
-4. Build the project:
-   ```bash
-   make
-   ```
+   ./program
+
 
 ### Running the Application
 1. Launch the application:
