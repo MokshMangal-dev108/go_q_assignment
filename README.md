@@ -114,9 +114,6 @@ tradingws.cancelOrder("order-id");
 3. Enhance UI/UX for better interaction with the system.
 4. Extend coverage for additional exchanges and instruments.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ---
 
 **Author**: Moksh Mangal
