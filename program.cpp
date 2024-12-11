@@ -214,8 +214,8 @@ public:
             {"method", "public/auth"},
             {"params", {
                 {"grant_type", "client_credentials"},
-                {"client_id", "CuNAkES5"},
-                {"client_secret", "MSUjdt1s8InuQ7C53ys0RAhKH7TFoJ_EAQOlAXmN9Mc"}
+                {"client_id", cliend_id},
+                {"client_secret", cliend_secret}
             }},
             {"jsonrpc", "2.0"}
         };
