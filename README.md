@@ -58,7 +58,7 @@ This project implements a high-performance order management and market data syst
 3. **Libraries**: WebSocket++, nlohmann/json, OpenSSL.
 4. **Deribit Account**: Ensure you have API credentials (Client ID and Client Secret).
 
-### Build Instructions
+### Instructions
 1. Clone the repository:
    ```bash
    git clone https://github.com/MokshMangal-dev108/order-management-system.git
@@ -70,14 +70,6 @@ This project implements a high-performance order management and market data syst
 3. Run file:
    ```bash
    ./program
-
-
-### Running the Application
-1. Launch the application:
-   ```bash
-   ./order-management
-   ```
-2. Modify the `main()` function to test specific functionalities like placing orders, viewing positions, or streaming market data.
 
 ## Configuration
 - Update API credentials in the `auth()` method of the `TestTrading` class.
